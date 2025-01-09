@@ -83,6 +83,6 @@ The repository includes:
 **Alon Feldman**  
 Email: alon.feldman5@gmail.com  
 Linkedin: [Alon Feldman](https://www.linkedin.com/in/alon-feldman5)  
-Spiecal Thanks: [Hagit Lev Feldman](https://github.com/hagitLev)  
+Special Thanks: [Hagit Lev Feldman](https://github.com/hagitLev)  
 Technion - Spring 2024  
 
