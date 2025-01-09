@@ -131,7 +131,6 @@ def get_weather_data(states, start_date, end_date):
 # Define the ticker symbols for the required data
 symbols = {
     'Crude_Oil': 'CL=F',
-    # 'SP500': '^GSPC',
     'USD_to_Euro': 'EURUSD=X',
     'Natural_Gas': 'NG=F'
 }
@@ -149,7 +148,6 @@ for key, symbol in symbols.items():
 # Combine the relevant 'Close' columns into a single DataFrame
 data = pd.DataFrame({
     'Crude_Oil_Close': data_frames['Crude_Oil']['Close'],
-    # 'SP500_Close': data_frames['SP500']['Close'],
     'USD_to_Euro_Close': data_frames['USD_to_Euro']['Close'],
     'Natural_Gas_Close': data_frames['Natural_Gas']['Close'],
     'Natural_Gas_Open': data_frames['Natural_Gas']['Open'],
@@ -255,9 +253,6 @@ VaR_predicted = np.percentile(predicted_returns, (1 - confidence_level) * 100)
 
 print(f"True Value at Risk (VaR): {VaR_true}")
 print(f"Predicted Value at Risk (VaR): {VaR_predicted}")
-
-# Bonus:
-# Existing imports...
 
 # Additional imports for trading strategy calculations
 from scipy.stats import norm
