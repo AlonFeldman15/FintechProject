@@ -72,17 +72,23 @@ The addition of weather data improved performance and reduced reliance on the S&
 
 ---
 ## Conclusion
-The results from the final model, which combines ARIMA with weather data, show promising performance. 
-We achieved low error metrics, indicating the model handles outliers reasonably well. 
-The Root Mean Squared Error (RMSE) is slightly higher, suggesting that large errors occur infrequently.
-The R² value close to 1 (86.5%) indicates that the model explains most of the variance in the data, a significant improvement compared to models without weather data, which showed negative R² values.
-The predicted volatility is slightly lower than the actual volatility, implying that the model may slightly underestimate risk. However, the close alignment suggests the model captures the general volatility trend well.
-The predicted Value at Risk (VaR) is less negative than the actual VaR, indicating the model provides a slightly conservative risk estimate (lower extreme loss forecast). 
-While this is not ideal for precise risk management, the forecast remains reasonable and cautious.
-The Sharpe and Sortino ratios are both positive, with the Sortino ratio slightly higher, suggesting the model performs better when considering only negative volatility. 
-However, empirical results are lower than theoretical values, which may imply that the actual returns, adjusted for volatility, could be lower under real market conditions. 
+
+The results from the final model, which combines **ARIMA with weather data**, show promising performance.   
+We achieved low error metrics, indicating the model handles outliers reasonably well.   
+The Root Mean Squared Error (RMSE) is slightly higher, suggesting that large errors occur infrequently.   
+
+The R² value close to 1 (86.5%) indicates that the model explains most of the variance in the data, a significant improvement compared to models without weather data, which showed negative R² values.  
+The predicted volatility is slightly lower than the actual volatility, implying that the model may slightly underestimate risk.  
+However, the close alignment suggests the model captures the general volatility trend well.  
+
+The predicted Value at Risk (VaR) is less negative than the actual VaR, indicating the model provides a slightly conservative risk estimate (lower extreme loss forecast).   
+While this is not ideal for precise risk management, the forecast remains reasonable and cautious.   
+The Sharpe and Sortino ratios are both positive, with the Sortino ratio slightly higher, suggesting the model performs better when considering only negative volatility.   
+
+However, empirical results are lower than theoretical values, which may imply that the actual returns, adjusted for volatility, could be lower under real market conditions.   
 This could be due to the model’s conservative risk estimates or external factors not accounted for in the model.
-Overall, the model provides a cautious yet reasonable forecast, balancing accuracy and risk estimation, with some room for improvement in capturing extreme events and real market conditions.
+
+**Overall**, the model provides a cautious yet reasonable forecast, balancing accuracy and risk estimation, with some room for improvement in capturing extreme events and real market conditions.
 
 ## Code
 The repository includes:
