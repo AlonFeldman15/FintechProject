@@ -76,6 +76,7 @@ The repository includes:
 
 ## Contact
 **Alon Feldman**  
-Email: [Insert Contact Email]  
+Email: alon.feldman5@gmail.com  
+Linkedin: [Alon Feldman](https://www.linkedin.com/in/alon-feldman5)  
 Technion - Spring 2024  
 
