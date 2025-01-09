@@ -63,9 +63,14 @@ Daily predictions for the stock market's opening price of natural gas.
 4. **ARIMA with Weather:** Improved results with positive R².
    - **MAE:** 0.14  
    - **RMSE:** 0.17  
-   - **R² Score:** 0.87  
+   - **R² Score:** 0.87
+
+   Graph For ARIMA with Weather:
+![image](https://github.com/user-attachments/assets/7dbd695e-b605-4401-accb-ef3fb6c16bfb)
 
 The addition of weather data improved performance and reduced reliance on the S&P 500 index as a demand indicator.
+
+
 
 ---
 
